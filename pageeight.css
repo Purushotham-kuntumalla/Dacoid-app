@@ -1,0 +1,496 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@media (max-width: 600px) {
+
+body{
+    background-color: #FCFCFC;
+    font-family: 'Montserrat';
+}
+
+
+h1{
+    position: absolute;
+width: 172px;
+height: 24px;
+left: calc(50% - 172px/2 - 0.5px);
+top: 28px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #2C2B2B;
+
+}
+
+
+.chevron-left{
+    /* chevron-left */
+
+/* chevron-left */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 16px;
+top: 43px;
+
+background: #F1F1F1;
+border-radius: 3px;
+}
+
+.fa-chevron-left{
+    /* Vector */
+
+position: absolute;
+left: 26%;
+right: 25%;
+top: 10%;
+bottom: 30%;
+}
+#myChart{
+    /* Chart Full */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4.07px;
+
+position: absolute;
+width: 343px;
+height: 70.98px;
+left: 16px;
+top: 75.48px;
+
+
+}
+.warning{
+    /* Frame 17 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 328.75px;
+height: 70px;
+left: 16px;
+top: 287.31px;
+
+background: linear-gradient(90.07deg, rgba(129, 157, 255, 0.28) 5.94%, rgba(16, 16, 16, 0) 76.45%);
+border: 1.0178px solid rgba(69, 69, 69, 0.04);
+backdrop-filter: blur(20.3561px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 10px;
+
+}
+
+.warning-text{
+    /* You've burned fewer calories than yesterday. Time to get moving! */
+
+position: absolute;
+width: 281px;
+height: 30px;
+left: 40px;
+top: 9.69px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 12.5697px;
+line-height: 15px;
+
+color: #2C2B2B;
+
+
+}
+
+#alert{
+/* alert-triangle */
+position: absolute;
+width: 20px;
+height: 20px;
+font-size: 20px;
+left: 10px;
+top: 25.69px;
+/* Vector */
+color: rgba(126, 150, 255, 1);
+}
+
+
+h2{
+    /* Upcoming Workout */
+
+position: absolute;
+width: 164px;
+height: 20px;
+left: calc(50% - 164px/2 - 89.5px);
+top: 392px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+
+color: #2C2B2B;
+
+}
+.see-more{
+/* See more */
+
+position: absolute;
+width: 58px;
+height: 15px;
+left: 300px;
+top: 394px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+color: #7F7F7F;
+}
+
+.card-1{
+/* Rectangle 4530 */
+
+position: absolute;
+width: 343px;
+height: 75px;
+left: calc(50% - 343px/2);
+top: 428px;
+
+background: #FFFFFF;
+box-shadow: -4px 8px 25px -8px rgba(0, 0, 0, 0.15);
+border-radius: 12px;
+
+}
+.card-1-img{
+    /* Ellipse 53 */
+position: absolute;
+width: 50px;
+height: 50px;
+left: 25px;
+top: 15px;
+}
+
+.card-text-1{
+    
+position: absolute;
+width: 114px;
+height: 15px;
+left: 91px;
+top: 9px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+color: #2C2B2B;
+
+}
+
+.card-text-2{
+    /* Today 3pm */
+
+position: absolute;
+width: 56px;
+height: 12px;
+left: 91px;
+top: 33px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 12px;
+
+color: #7F7F7F;
+
+
+}
+
+.fa-toggle-on{
+    /* Toggle */
+
+position: absolute;
+width: 40px;
+height: 20px;
+left: 303px;
+top: 30px;
+font-size: 1.5rem;
+
+}
+
+.card-2{
+    /* Rectangle 4531 */
+
+position: absolute;
+width: 343px;
+height: 75px;
+left: calc(50% - 343px/2);
+top: 519px;
+
+background: #FFFFFF;
+box-shadow: -4px 8px 25px -8px rgba(0, 0, 0, 0.15);
+border-radius: 12px;
+
+}
+
+.card-2-img{
+    /* Ellipse 53 */
+position: absolute;
+width: 50px;
+height: 50px;
+left: 25px;
+top: 15px;
+}
+
+.card-text-2-1{
+    
+    position: absolute;
+    width: 154px;
+    height: 15px;
+    left: 91px;
+    top: 9px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    color: #2C2B2B;
+    
+    }
+    
+    .card-text-2-2{
+        /* Today 3pm */
+    
+    position: absolute;
+    width: 86px;
+    height: 12px;
+    left: 91px;
+    top: 33px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    color: #7F7F7F;
+    }
+    
+    .train-text-que{
+        /* What Do You Want to Train */
+padding-top: 20px;
+position: absolute;
+width: 225px;
+height: 20px;
+left: calc(50% - 225px/2 - 58px);
+top: 611px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+color: #2C2B2B;
+    }
+
+    .box-1{
+        /* Rectangle 4532 */
+
+position: absolute;
+width: 343px;
+height: 124px;
+left: calc(50% - 343px/2);
+top: 687px;
+
+background: rgba(140, 177, 255, 0.6);
+box-shadow: -4px 8px 25px -8px rgba(0, 0, 0, 0.15);
+border-radius: 12px;
+
+    }
+
+    .box-1-title-1{
+        /* Full Body Workout */
+
+position: absolute;
+width: 114px;
+height: 15px;
+left: 32px;
+top: 10px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+color: #2C2B2B;
+
+
+    }
+.box-1-title-2{
+        /* Arms */
+
+position: absolute;
+width: 27px;
+height: 12px;
+left: 32px;
+top: 35px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 12px;
+
+color: #2C2B2B;
+
+
+    }
+
+    
+    .box-1-title-3{
+        /* Rectangle 4532 */
+
+position: absolute;
+width: 343px;
+height: 124px;
+left: 32px;
+top:  48px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 12px;
+
+color: #2C2B2B;
+    }
+
+    .box-1-img-1{
+/* Ellipse 55 */
+
+position: absolute;
+width: 100px;
+height: 100px;
+left: 235px;
+top: 13px;
+    }
+    .footer{
+        /* Rectangle 2132 */
+
+position: absolute;
+width: 360px;
+height: 106px;
+left: 0px;
+top: 785px;
+background: #FFFFFF;
+
+    }
+
+    .footer-icons{
+        /* Group 5 */
+
+position: absolute;
+width: 317px;
+height: 27.22px;
+left: calc(50% - 317px/2);
+top: 7px;
+
+
+    }
+.img-icon-1{
+    /* Vector */
+
+/* Vector */
+
+position: absolute;
+left: 7.73%;
+right: 85.18%;
+top: 93.26%;
+bottom: 3.42%;
+}
+
+
+.img-icon-2{
+    /* Vector */
+
+/* Group */
+
+position: absolute;
+left: 25.01%;
+right: 67.73%;
+top: 93.26%;
+bottom: 3.34%;
+
+
+}
+.img-icon-3{
+/* Group */
+
+/* Vector */
+
+position: absolute;
+left: 67.21%;
+right: 24.99%;
+top: 93.26%;
+bottom: 3.42%;
+
+
+}
+.img-icon-4{
+/* Group */
+
+position: absolute;
+left: 86.46%;
+right: 7.73%;
+top: 93.56%;
+bottom: 3.72%;
+
+
+}
+
+.search{
+    /* Group 1 */
+
+position: absolute;
+width: 83px;
+height: 83px;
+left: calc(50% - 63px/2);
+border-radius: 50%;
+top: -40px;
+background: linear-gradient(90.95deg, #DEE5FF 0.79%, #809AFF 99.18%);
+filter: drop-shadow(0px 4px 6.5px rgba(0, 0, 0, 0.15));
+
+}
+
+#search-icon{
+    /* Vector */
+
+position: absolute;
+width: 20.16px;
+height: 20.16px;
+left: calc(50% - 20.16px/2 - 0.42px);
+top: 40%;
+font-size: 1.3rem;
+}
+}
+
+

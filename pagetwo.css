@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@media (max-width: 600px) {
+    body{
+        background-color: #FCFCFC;
+    }
+    .skip{
+        /* Skip */
+position: absolute;
+width: 36px;
+height: 20px;
+left: 323px;
+top: 44px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+text-decoration-line: underline;
+color: #9FB2FF;
+    }
+    .hero-image{
+position: absolute;
+width: 352px;
+height: 234.61px;
+left: calc(50% - 352px/2 - 0.5px);
+top: 156px;
+background: url(./src/images/2home.png);
+    }
+
+    /* Track Your Goal */
+.sideHeading{
+    /* Track Your Goal */
+
+position: absolute;
+width: 160px;
+height: 24px;
+left: 16px;
+top: 499px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #2C2B2B;
+
+
+}
+
+p{
+    position: absolute;
+    width: 343px;
+    height: 60px;
+    left: 16px;
+    top: 538px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    
+    color: #787878;
+            
+}
+
+.next-icon{
+
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 299px;
+    top: 656px;
+    border-width: 0px 0px 0px 0px;
+    border-style: solid;
+    border-color: #89A1FF;
+    border-radius: 50%;
+    background: linear-gradient(90.95deg, #DEE5FF 0.79%, #809AFF 99.18%);
+    }
+    /* chevron-right */
+    #chevron{
+        
+        position: absolute;
+        left: 25px;
+        top: 23px;
+        width: 24px;
+        height: 24px;
+        color: #FFFFFF;
+    }
+}

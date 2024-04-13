@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@media (min-width: 375px) {
+
+body{
+    background-color: #FCFCFC;
+    font-family: 'Montserrat';
+}
+h1{
+    /* Create an account */
+
+position: absolute;
+width: 263px;
+height: 23px;
+left: 16px;
+top: 68px;
+
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+
+color: #2C2B2B;
+
+
+}
+
+
+.inp-1{
+    /* Rectangle 688 */
+
+position: absolute;
+width: 343px;
+height: 50px;
+left: 16px;
+top: 135px;
+
+background: #F1F1F1;
+border-radius: 12px;
+border: none;
+}
+.inp-2{
+    
+position: absolute;
+width: 343px;
+height: 50px;
+left: 16px;
+top: 209px;
+
+background: #F1F1F1;
+border-radius: 12px;
+border: none;
+}
+
+.btn{
+    /* Rectangle 692 */
+border: none;
+position: absolute;
+width: 343px;
+height: 50px;
+left: 16px;
+top: 574px;
+background: linear-gradient(270deg, #7B91FF 0%, #95BEFF 100%);
+border-radius: 12px;
+/* Create an Account */
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.orsection{
+    /* Line 1 */
+/* Or */
+
+position: absolute;
+width: 15px;
+height: 15px;
+left: calc(50% - 15px/2 + 1px);
+top: 646px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+color: #2C2B2B;
+
+
+}
+
+/* Rectangle 2129 */
+.googleicon{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    left: 134px;
+    top: 686px;
+    background: url(./src/images/google.png);
+    background-repeat: no-repeat;
+background-position: center;
+    border: 1px solid #7F7F7F;
+    border-radius: 8px;    
+}
+.facebookicon{
+    /* Rectangle 2130 */
+
+box-sizing: border-box;
+background: url(./src/images/facebook.png);
+background-repeat: no-repeat;
+background-position: center;
+position: absolute;
+width: 44px;
+height: 44px;
+left: 196px;
+top: 686px;
+
+border: 1px solid #7F7F7F;
+border-radius: 8px;
+
+}
+
+.haveaccount{
+    /* Don’t have an account yet? Create an account */
+
+position: absolute;
+width: 281px;
+height: 15px;
+left: calc(50% - 281px/2);
+top: 756px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+text-decoration-line: underline;
+padding-bottom: 25px;
+color: #2C2B2B;
+
+
+}
+
+.create-acc{
+    /* Already have an account? Login */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+text-decoration-line: underline;
+color: #819CFF;
+}
+}

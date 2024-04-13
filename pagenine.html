@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pagenine.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    
+</head>
+<body>
+    <header>
+        <div class="heading">
+            <div class="chevron-left">
+                <a href="pageeight.html">
+                    <i class="fa-solid fa-chevron-left" id="left"></i>
+                </a>
+                
+            </div>
+            <h1>
+                Workout Tracker
+            </h1>
+        </div>
+    </header>
+
+    
+        
+        <p class="day-scroll"><i class="fa-solid fa-chevron-left"></i> Feb 2024 <i class="fa-solid fa-chevron-right"></i></p>
+        
+    </div>
+    <div id="calendar">
+        
+        <div class="day sun">Sun <span>5</span></div>
+        <div class="day mon">Mon <span>6</span></div>
+        <div class="day tue">Tue <span>7</span></div>
+        <div class="day wed">Wed <span>8</span></div>
+        <div class="day thu">Thu <span>9</span></div>
+        
+      </div>
+      <div id="times">
+<div class="add">
+    <span class="plus">
+        +
+    </span>
+</div>
+<p class="lower">Lowerbody Workout, 3pm</p>
+
+<p class="ab">Ab Workout, 7:30am</p>
+<p class="upper">Upperbody Workout, 9am</p>
+      </div>
+   
+        <div class="footer">
+            <div class="footer-icons">
+                
+                <img class="img-icon-1" src="./src/images/home.png" alt="">
+               <img class="img-icon-2" src="./src/images/graph.png" alt="">
+               <span class="search">
+                <i class="fa-solid  fa-magnifying-glass" style="color: #ffffff;" id="search-icon"></i>
+               </span>
+               <img class="img-icon-3" src="./src/images/camera.png" alt="">
+               <img class="img-icon-4" src="./src/images/person.png" alt="">
+            </div>
+        </div>
+   
+
+        <script>
+            const timings = [
+"06:00 AM",
+"07:00 AM",
+"08:00 AM",
+"09:00 AM",
+"10:00 AM",
+"11:00 AM",
+"12:00 AM",
+"01:00 AM",
+"02:00 AM",
+"03:00 AM",
+"04:00 AM",
+"05:00 AM",
+"06:00 AM",
+"07:00 AM",
+"08:00 AM",
+"09:00 AM",
+"10:00 AM",
+"11:00 AM",
+"05:00 AM"
+            ];
+
+            timings.forEach((time) => {
+                const timesDiv = document.getElementById('times');
+                const p = document.createElement('p');
+                p.className = 'times-text';
+                p.textContent = time;
+                timesDiv.appendChild(p);
+            })
+        </script>
+</body>
+</html>
+
+
+
+
+
+
